@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ComponentEight from "./components/ComponentEight";
+import ComponentEleven from "./components/ComponentEleven";
+import ComponentFive from "./components/ComponentFive";
+import ComponentFour from "./components/ComponentFour";
+import ComponentNine from "./components/ComponentNine";
+import ComponentOne from "./components/ComponentOne";
+import ComponentSeven from "./components/ComponentSeven";
+import ComponentSix from "./components/ComponentSix";
+import ComponentTen from "./components/ComponentTen";
+import ComponentThree from "./components/ComponentThree";
+import ComponentTwo from "./components/ComponentTwo";
+import Footer from "./components/Footer";
 
+import Header from "./components/Header";
+import Introduce from "./components/Introduce";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Introduce />
+      <ComponentOne />
+      <ComponentTwo />
+      <ComponentThree />
+      <ComponentFour />
+      <ComponentFive />
+      <ComponentSix />
+      <ComponentSeven />
+      <ComponentEight />
+      <ComponentNine />
+      <ComponentTen />
+      <ComponentEleven />
+      <Footer />
+    </>
   );
 }
 
