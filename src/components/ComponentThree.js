@@ -91,6 +91,7 @@ const StyleButton = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  cursor: pointer;
   @media screen and (max-width: 376px) {
     margin-top: 10px;
   }
@@ -111,7 +112,7 @@ const Button = styled.button`
   z-index: 1;
   border: none;
 `;
-function ComponentThree({setOpen}) {
+function ComponentThree({ setOpen }) {
   return (
     <COntainer onClick={() => setOpen(false)}>
       <Box>
@@ -132,7 +133,7 @@ function ComponentThree({setOpen}) {
         </RightBox>
       </Box>
       <StyleButton>
-        <Button>join DEN</Button>
+        <Button>Join DEN</Button>
       </StyleButton>
     </COntainer>
   );

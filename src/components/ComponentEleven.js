@@ -278,6 +278,7 @@ const StyleButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   @media screen and (max-width: 376px) {
     padding: 25px 0;
   }
@@ -295,6 +296,7 @@ const Button = styled.button`
   color: #ffffff;
   padding: 0 35px;
   border: none;
+  cursor: pointer;
   @media screen and (max-width: 1024px) {
     height: 48px;
     padding: 0 25px;

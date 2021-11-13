@@ -55,11 +55,12 @@ const Button = styled.button`
   border: none;
   font-style: normal;
   font-family: "Oxygen", sans-serif;
+  cursor: pointer;
   @media screen and (max-width: 376px) {
     padding: 10px 50px;
   }
 `;
-function ComponentTen({setOpen}) {
+function ComponentTen({ setOpen }) {
   return (
     <Container onClick={() => setOpen(false)}>
       <Box>
@@ -68,7 +69,7 @@ function ComponentTen({setOpen}) {
           EMPOWERED
         </LeftBox>
         <RightBox>
-          <Button>join DEN</Button>
+          <Button>Join DEN</Button>
         </RightBox>
       </Box>
     </Container>

@@ -39,11 +39,11 @@ const Grid = styled.div`
 const GridMobile = styled(Slider)`
   // display: none;
   @media screen and (max-width: 1024px) {
-    display:none;
-  };
+    display: none;
+  }
   @media screen and (min-width: 1024px) {
-    display:none;
-  };
+    display: none;
+  }
   @media screen and (max-width: 768px) {
     display: block;
     padding-top: 50px;
@@ -55,7 +55,7 @@ const GridMobile = styled(Slider)`
     .slick-slide > div {
       margin: 0 5px;
     }
-  };
+  }
   @media screen and (max-width: 375px) {
     display: flex;
     padding-top: 50px;
@@ -121,6 +121,7 @@ const StyleButton = styled.div`
   justify-content: left;
   align-items: center;
   padding-top: 15px;
+  cursor: pointer;
 `;
 const Button = styled.button`
   background: #ffcc00;
@@ -131,6 +132,7 @@ const Button = styled.button`
   border: none;
   font-style: normal;
   font-family: "Oxygen", sans-serif;
+  cursor: pointer;
   @media screen and (max-width: 1024px) {
     & p {
       font-size: 12px;

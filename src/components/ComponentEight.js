@@ -103,12 +103,13 @@ const Button = styled.button`
   border: 1px solid #204370;
   box-sizing: border-box;
   border-radius: 25px;
+  cursor: pointer;
   @media screen and (max-width: 769px) {
     padding: 0 10px;
     font-size: 12px;
   }
 `;
-function ComponentEight({setOpen}) {
+function ComponentEight({ setOpen }) {
   return (
     <Container onClick={() => setOpen(false)}>
       <Box>

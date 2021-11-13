@@ -82,6 +82,7 @@ const Button = styled.button`
   justify-content: center;
   border: none;
   font-family: "Oxygen", sans-serif;
+  cursor: pointer;
   @media screen and (max-width: 376px) {
     width: 150px;
   }
@@ -97,7 +98,7 @@ function Introduce({ setOpen }) {
           Get all the support and education you need to achieve full potential
           as an entrepreneur.
         </Text>
-        <Button>join DEN</Button>
+        <Button>Join DEN</Button>
       </Content>
     </Container>
   );

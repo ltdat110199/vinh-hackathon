@@ -124,8 +124,9 @@ const Button = styled.button`
   padding: 0 45px;
   z-index: 1;
   border: none;
+  cursor: pointer;
 `;
-function ComponentFive({setOpen}) {
+function ComponentFive({ setOpen }) {
   return (
     <COntainer onClick={() => setOpen(false)}>
       <Box>
@@ -139,11 +140,9 @@ function ComponentFive({setOpen}) {
           <img src={group} alt={""} />
         </RightBox>
       </Box>
-      <Text>
-        What are you waiting for? Join DEN today.
-      </Text>
+      <Text>What are you waiting for? Join DEN today.</Text>
       <StyleButton>
-        <Button>join DEN</Button>
+        <Button>Join DEN</Button>
       </StyleButton>
     </COntainer>
   );
